@@ -31,10 +31,10 @@ function currentTime() {
     document.getElementById('band').innerText = "Introductions";
   }
   else if (milTime > 930 && milTime < 1055) {
-    document.getElementById('band').innerText = "Concurrent Session 1";
+    document.getElementById('band').innerText = "Session 1";
   }
   else if (milTime > 1100 && milTime < 1225) {
-    document.getElementById('band').innerText = "Concurrent Session 2";
+    document.getElementById('band').innerText = "Session 2";
   }
   else if (milTime > 1230 && milTime < 1310) {
     document.getElementById('band').innerText = "Lunch";
@@ -43,10 +43,10 @@ function currentTime() {
     document.getElementById('band').innerText = "STEAM Presentation";
   }
   else if (milTime > 1345 && milTime < 1525) {
-    document.getElementById('band').innerText = "Concurrent Session 3";
+    document.getElementById('band').innerText = "Session 3";
   }
   else if (milTime > 1530 && milTime < 1655) {
-    document.getElementById('band').innerText = "Concurrent Session 4";
+    document.getElementById('band').innerText = "Session 4";
   }
   else if (milTime > 1700 && milTime < 1730) {
     document.getElementById('band').innerText = "Reflection";
